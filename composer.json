@@ -1,0 +1,22 @@
+{
+  "name": "xirelogy/magpie-barcode-tools",
+  "description": "Barcode related tools",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "JingXiang Tou",
+      "email": "jx@tou.st"
+    }
+  ],
+  "require": {
+    "ext-gd": "*",
+    "xirelogy/magpie-core": "^0.1",
+    "picqer/php-barcode-generator": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MagpieLib\\BarcodeTools\\": "src"
+    }
+  }
+}
